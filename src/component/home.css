@@ -1,0 +1,67 @@
+.weather-input {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background: #f2f2f2;
+  color: gray;
+}
+.search-btn {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: gray;
+  color: #fff;
+}
+.weather-temperature {
+  font-size: 22px;
+  font-weight: 700;
+}
+.weather-name {
+  font-size: 34px;
+  color: #ff751a;
+}
+.weather-country {
+  font-size: 14px;
+  font-weight: 400;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+/* .log-text {
+} */
+.log-value {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sidebar {
+    width: 20%;
+    top: 10%;
+  }
+  .sidebar-list {
+    font-size: 10px;
+  }
+  .content {
+    width: 80%;
+    left: 20%;
+  }
+  .weather-input {
+    padding: 5px;
+  }
+  .search-btn {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}

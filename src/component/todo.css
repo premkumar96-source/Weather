@@ -1,0 +1,34 @@
+.todo-input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  color: gray;
+  border: 1px solid black;
+}
+.todo-btn {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: gray;
+  color: #fff;
+}
+.todo-header {
+  margin-top: 20px;
+}
+.todo-bttn {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+
+  color: #fff;
+}
+.remove {
+  background: #b36b00;
+}
+.complete {
+  background: #004d00;
+}
